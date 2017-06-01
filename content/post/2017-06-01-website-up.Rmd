@@ -1,0 +1,13 @@
+---
+title: Website up
+author: Robin Lovelace
+date: '2017-06-01'
+slug: website-up
+categories: []
+tags: []
+---
+
+We have got a new website!
+See https://github.com/cyipt/cyipt.bike for further info.
+
+Posts are written in [**markdown**](http://rmarkdown.rstudio.com) and converted by [Pandoc](http://pandoc.org) into html.

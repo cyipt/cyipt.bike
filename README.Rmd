@@ -13,3 +13,5 @@ git clone git@github.com:cyipt/cyipt.github.io
 rstudio cyipt.bike.Rproj
 ```
 
+The site was created with the blogdown R package and the function `new_site()`.
+

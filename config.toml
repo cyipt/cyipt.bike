@@ -1,0 +1,38 @@
+baseurl = "http://www.cyipt.bike/"
+relativeurls = true
+languageCode = "en-us"
+title = "Cycling Infrastructure Prioritisation Toolkit"
+theme = "hugo-lithium-theme"
+publishDir = "cyipt.github.io/"
+googleAnalytics = ""
+disqusShortname = ""
+ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
+
+[permalinks]
+    post = "/:year/:month/:day/:slug/"
+
+[[menu.main]]
+    name = "About"
+    url = "/about/"
+[[menu.main]]
+    name = "GitHub"
+    url = "https://github.com/cyipt"
+
+[params]
+    description = "Evidence for prioritising for cycling infrastructure."
+
+    # options for highlight.js (version, additional languages, and theme)
+    highlightjsVersion = "9.11.0"
+    highlightjsCDN = "//cdn.bootcss.com"
+    highlightjsLang = ["r", "yaml"]
+    highlightjsTheme = "github"
+
+    MathJaxCDN = "//cdn.bootcss.com"
+    MathJaxVersion = "2.7.1"
+
+    [params.logo]
+    url = "logo.png"
+    width = 50
+    height = 50
+    alt = "Logo"
+
